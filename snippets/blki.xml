@@ -8,7 +8,7 @@
            revision="refs/heads/u14_QPR2" />
 
   <!-- BLKI additions -->
-  <project path="manifest" name="Black-Iron-Project/manifest"  remote="blki" revision="u14_QPR2" />
+  <project path="manifest" name="Black-Iron-Project/manifest"  remote="blki" revision="u14_QPR3" />
 
   <project path="art" name="Black-Iron-Project/art" groups="pdk"  remote="blki" revision="u14_QPR2" />
 
@@ -17,17 +17,17 @@
   <project path="bootable/recovery" name="Black-Iron-Project/bootable_recovery" groups="pdk"  remote="blki" revision="u14_QPR2" />
 
   <project path="build/make" name="Black-Iron-Project/build" groups="pdk,sysui-studio"  remote="blki" revision="u14_QPR2" >
-    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
-    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
-    <linkfile dest="build/core" src="core" />
-    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
-    <linkfile dest="build/target" src="target" />
-    <linkfile dest="build/tools" src="tools" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
   </project>
 
   <project path="build/soong" name="Black-Iron-Project/build_soong" groups="pdk,tradefed"  remote="blki" revision="u14_QPR2" >
-    <linkfile dest="Android.bp" src="root.bp" />
-    <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <project path="hardware/interfaces" name="Black-Iron-Project/hardware_interfaces" groups="pdk,sysui-studio"  remote="blki" revision="u14_QPR2" />
