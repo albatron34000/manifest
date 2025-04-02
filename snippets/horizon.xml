@@ -159,9 +159,6 @@
   <project path="system/libhwbinder" name="system_libhwbinder" groups="pdk" remote="HorizonDroid" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="HorizonDroid" />
 
-  <!--- Other --->
-  <project path="horizon-maintainers" name="horizon-maintainers" remote="HorizonDroid" />
-
   <!-- Vendor  -->
   <project path="vendor/addons" name="vendor_addons" remote="HorizonDroid" />
   <project path="vendor/horizon" name="vendor_horizon" remote="HorizonDroid" />
