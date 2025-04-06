@@ -46,7 +46,7 @@ git clone https://github.com/Luks-organization/ViperFX vendor/ViperFX
 
 # mediatek codec patch from hipexscape
 if [ ! -f "frameworks/av/.mtk_codec_fix" ]; then
-    curl -sL "https://raw.githubusercontent.com/hipexscape/Scripts/tsm/mediatek_codec_patch.sh" | bash
+    curl -sL "https://github.com/albatron34000/manifest/blob/fifteen/mediatek_codec_patch.sh" | bash
     touch frameworks/av/.mtk_codec_fix
 fi
  
